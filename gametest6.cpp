@@ -26,7 +26,7 @@ int main() {
                 continue;
             }
             try {
-                int num = stoi(substring);
+                int num = stoi(substring); //check if there is any character in the input
                 if (num < 0) {
                     validInput = false;
                 }
